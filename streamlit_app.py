@@ -15,3 +15,4 @@ for perc_completed in range(100):
   progress_bar.progress(perc_completed+1)
 
 col2.success("Photo uploaded successfully")
+col3.metric(label="Temperature", value="60 deg C", delta = "3 deg C")
