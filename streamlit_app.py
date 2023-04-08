@@ -17,7 +17,7 @@ for perc_completed in range(100):
 col2.success("Photo uploaded successfully")
 
 with st.expander("Click to read more"):
-  st.write("Hello, here are more details")
+  st.write("Hello, here are more details.")
   if uploaded_photo is None:
     st.image(camera_photo)
   else:
