@@ -20,6 +20,6 @@ with st.expander("Click to read more"):
   st.write("Hello, here are more details")
   if uploaded_photo is None:
     st.image(camera_photo)
-   else:
+  else:
     st.image(uploaded_photo)
      
