@@ -1,5 +1,6 @@
 import streamlit as st
 
-st.write('Hello world!!')
-
-st.write('Hello wereld!!')
+col1, col2, col3 = st.columns([1,2,1])
+                             
+col1.markdown(" # Welcome to my app!")
+col1.markdown(" Here is some info on the app")
