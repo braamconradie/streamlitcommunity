@@ -18,3 +18,8 @@ col2.success("Photo uploaded successfully")
 
 with st.expander("Click to read more"):
   st.write("Hello, here are more details")
+  if uploaded_photo is None:
+    st.image(camera_photo)
+   else:
+    st.image(uploaded_photo)
+     
