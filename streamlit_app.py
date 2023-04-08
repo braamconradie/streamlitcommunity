@@ -1,6 +1,12 @@
 import streamlit as st
 import time
 
+st.header('st.button')
+if st.button('Say hello'):
+     st.write('Why hello there')
+else:
+     st.write('Goodbye')
+
 col1, col2, col3 = st.columns([1,2,1])
                              
 col1.markdown(" # Welcome to my app!")
